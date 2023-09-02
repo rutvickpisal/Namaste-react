@@ -39,9 +39,10 @@ button {
 
 .res-card {
     width: 240px;
-    height: 360px;
+    height: 400px;
     margin: 5px;
     background-color: antiquewhite;
+    border-radius: 25px;
 }
 
 .res-card:hover {
@@ -60,8 +61,36 @@ button {
 .food-img {
     width: 100%;
     height: 50%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .filter-btn {
     margin: 10px 10px 10px 0;   
+}
+
+.shimmer-res-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-res-card {
+    width: 240px;
+    height: 400px;
+    margin: 5px;
+    background-color: rgb(220, 216, 212);
+    border-radius: 25px;
+}
+
+.shimm-res-image {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: rgb(242, 239, 235);
+}
+
+.shimm-res-body {
+    padding: 5px;
+    background-color: rgb(232, 231, 230);
 }
